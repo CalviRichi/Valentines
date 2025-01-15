@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/calvin/3D_Game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Game_Engine.dir/src/map.c.o -c /home/calvin/3D_Game/src/map.c",
+  "file": "/home/calvin/3D_Game/src/map.c"
+},
+{
+  "directory": "/home/calvin/3D_Game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Game_Engine.dir/src/sprite.c.o -c /home/calvin/3D_Game/src/sprite.c",
+  "file": "/home/calvin/3D_Game/src/sprite.c"
+},
+{
+  "directory": "/home/calvin/3D_Game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Game_Engine.dir/src/player.c.o -c /home/calvin/3D_Game/src/player.c",
+  "file": "/home/calvin/3D_Game/src/player.c"
+},
+{
+  "directory": "/home/calvin/3D_Game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Game_Engine.dir/src/main.c.o -c /home/calvin/3D_Game/src/main.c",
+  "file": "/home/calvin/3D_Game/src/main.c"
+},
+{
+  "directory": "/home/calvin/3D_Game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Game_Engine.dir/src/glad.c.o -c /home/calvin/3D_Game/src/glad.c",
+  "file": "/home/calvin/3D_Game/src/glad.c"
+}
+]

@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(Game_Engine VERSION 0.1.0 LANGUAGES C)
+cmake_policy(SET CMP0072 NEW)
+
+find_package(OpenGL REQUIRED)
+
+add_executable(Game_Engine
+    src/map.c
+    src/sprite.c
+    src/player.c
+    src/main.c 
+    src/glad.h 
+    src/glad.c
+)
+
+target_link_libraries(Game_Engine 
+    m
+    glfw
+    OpenGL::GL
+)
+

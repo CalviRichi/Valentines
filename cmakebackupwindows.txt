@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.0)
+project(Game_Engine VERSION 0.1.0 LANGUAGES C)
+cmake_policy(SET CMP0072 NEW)
+
+# Set the GLFW root directory (assuming it is in the project directory)
+set(GLFW_ROOT ${CMAKE_SOURCE_DIR}/glfw-windows)
+
+# Specify the toolchain file
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/toolchain.cmake")
+
+# Find the GLFW package
+find_package(glfw3 REQUIRED PATHS ${GLFW_ROOT})
+
+# Find the OpenGL package
+find_package(OpenGL REQUIRED)
+
+add_executable(Game_Engine
+    src/map.c
+    src/sprite.c
+    src/player.c
+    src/main.c 
+    src/glad.h 
+    src/glad.c
+)
+
+# Include directories for GLFW
+target_include_directories(Game_Engine PRIVATE ${GLFW_ROOT}/include)
+
+# Link the GLFW and OpenGL libraries
+target_link_libraries(Game_Engine 
+    glfw
+    OpenGL::GL
+)
+
+# Link against static libraries
+set_target_properties(Game_Engine PROPERTIES
+    LINK_SEARCH_START_STATIC ON
+    LINK_SEARCH_END_STATIC ON
+)
+

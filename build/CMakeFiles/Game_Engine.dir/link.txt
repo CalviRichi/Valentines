@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/Game_Engine.dir/src/map.c.o CMakeFiles/Game_Engine.dir/src/sprite.c.o CMakeFiles/Game_Engine.dir/src/player.c.o CMakeFiles/Game_Engine.dir/src/main.c.o CMakeFiles/Game_Engine.dir/src/glad.c.o -o Game_Engine  -lm -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

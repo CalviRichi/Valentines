@@ -59,4 +59,15 @@ CMakeFiles/Game_Engine.dir/src/sprite.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/GLFW/glfw3.h /home/calvin/3D_Game/assets/fruity.c
+ /usr/include/GLFW/glfw3.h /home/calvin/3D_Game/assets/fruity.c \
+ /home/calvin/3D_Game/src/../assets/heart1.c \
+ /home/calvin/3D_Game/src/../assets/heart2.c \
+ /home/calvin/3D_Game/src/../assets/heart3.c \
+ /home/calvin/3D_Game/src/../assets/heart4.c \
+ /home/calvin/3D_Game/src/../assets/heart5.c \
+ /home/calvin/3D_Game/src/../assets/heart6.c \
+ /home/calvin/3D_Game/src/../assets/heart7.c \
+ /home/calvin/3D_Game/src/../assets/heart8.c \
+ /home/calvin/3D_Game/src/../assets/heart9.c \
+ /home/calvin/3D_Game/src/../assets/heart10.c \
+ /home/calvin/3D_Game/src/../assets/heart11.c

@@ -81,12 +81,12 @@ clean: CMakeFiles/Game_Engine.dir/clean
 CMakeFiles/Game_Engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=1,2,3 "Built target Game_Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Game_Engine"
 .PHONY : CMakeFiles/Game_Engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game_Engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/calvin/3D_Game/windows_build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/calvin/3D_Game/windows_build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Game_Engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/calvin/3D_Game/windows_build/CMakeFiles 0
 .PHONY : CMakeFiles/Game_Engine.dir/rule

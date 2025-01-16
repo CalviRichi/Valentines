@@ -1,5 +1,5 @@
-CMakeFiles/Game_Engine.dir/src/main.c.obj: \
- /home/calvin/3D_Game/src/main.c /home/calvin/3D_Game/src/game_types.h \
+CMakeFiles/Game_Engine.dir/src/sprite.c.obj: \
+ /home/calvin/3D_Game/src/sprite.c /home/calvin/3D_Game/src/game_types.h \
  /usr/share/mingw-w64/include/stdio.h \
  /usr/share/mingw-w64/include/corecrt_stdio_config.h \
  /usr/share/mingw-w64/include/corecrt.h \
@@ -26,13 +26,15 @@ CMakeFiles/Game_Engine.dir/src/main.c.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/10-win32/include/stddef.h \
  /usr/share/mingw-w64/include/stddef.h \
  /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h \
- /home/calvin/3D_Game/src/../assets/gun2.c \
- /home/calvin/3D_Game/src/../assets/grass.c \
- /home/calvin/3D_Game/src/../assets/bricks.c \
- /home/calvin/3D_Game/src/../assets/malane2.c \
- /home/calvin/3D_Game/src/../assets/leigha.c \
- /home/calvin/3D_Game/src/../assets/alice.c \
- /home/calvin/3D_Game/src/../assets/lava.c \
- /home/calvin/3D_Game/src/../assets/MinecraftBricks.c \
- /home/calvin/3D_Game/src/../assets/grass_2.c \
- /home/calvin/3D_Game/src/../assets/wood_planks.c
+ /home/calvin/3D_Game/assets/fruity.c \
+ /home/calvin/3D_Game/src/../assets/heart1.c \
+ /home/calvin/3D_Game/src/../assets/heart2.c \
+ /home/calvin/3D_Game/src/../assets/heart3.c \
+ /home/calvin/3D_Game/src/../assets/heart4.c \
+ /home/calvin/3D_Game/src/../assets/heart5.c \
+ /home/calvin/3D_Game/src/../assets/heart6.c \
+ /home/calvin/3D_Game/src/../assets/heart7.c \
+ /home/calvin/3D_Game/src/../assets/heart8.c \
+ /home/calvin/3D_Game/src/../assets/heart9.c \
+ /home/calvin/3D_Game/src/../assets/heart10.c \
+ /home/calvin/3D_Game/src/../assets/heart11.c

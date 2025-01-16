@@ -1,5 +1,5 @@
-CMakeFiles/Game_Engine.dir/src/main.c.obj: \
- /home/calvin/3D_Game/src/main.c /home/calvin/3D_Game/src/game_types.h \
+CMakeFiles/Game_Engine.dir/src/map.c.obj: /home/calvin/3D_Game/src/map.c \
+ /home/calvin/3D_Game/src/game_types.h \
  /usr/share/mingw-w64/include/stdio.h \
  /usr/share/mingw-w64/include/corecrt_stdio_config.h \
  /usr/share/mingw-w64/include/corecrt.h \
@@ -25,14 +25,4 @@ CMakeFiles/Game_Engine.dir/src/main.c.obj: \
  /usr/share/mingw-w64/include/stdint.h \
  /usr/lib/gcc/x86_64-w64-mingw32/10-win32/include/stddef.h \
  /usr/share/mingw-w64/include/stddef.h \
- /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h \
- /home/calvin/3D_Game/src/../assets/gun2.c \
- /home/calvin/3D_Game/src/../assets/grass.c \
- /home/calvin/3D_Game/src/../assets/bricks.c \
- /home/calvin/3D_Game/src/../assets/malane2.c \
- /home/calvin/3D_Game/src/../assets/leigha.c \
- /home/calvin/3D_Game/src/../assets/alice.c \
- /home/calvin/3D_Game/src/../assets/lava.c \
- /home/calvin/3D_Game/src/../assets/MinecraftBricks.c \
- /home/calvin/3D_Game/src/../assets/grass_2.c \
- /home/calvin/3D_Game/src/../assets/wood_planks.c
+ /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h

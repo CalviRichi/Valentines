@@ -69,11 +69,56 @@ include CMakeFiles/Game_Engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Game_Engine.dir/flags.make
 
+CMakeFiles/Game_Engine.dir/src/map.c.obj: CMakeFiles/Game_Engine.dir/flags.make
+CMakeFiles/Game_Engine.dir/src/map.c.obj: CMakeFiles/Game_Engine.dir/includes_C.rsp
+CMakeFiles/Game_Engine.dir/src/map.c.obj: ../src/map.c
+CMakeFiles/Game_Engine.dir/src/map.c.obj: CMakeFiles/Game_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Game_Engine.dir/src/map.c.obj"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game_Engine.dir/src/map.c.obj -MF CMakeFiles/Game_Engine.dir/src/map.c.obj.d -o CMakeFiles/Game_Engine.dir/src/map.c.obj -c /home/calvin/3D_Game/src/map.c
+
+CMakeFiles/Game_Engine.dir/src/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Game_Engine.dir/src/map.c.i"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/calvin/3D_Game/src/map.c > CMakeFiles/Game_Engine.dir/src/map.c.i
+
+CMakeFiles/Game_Engine.dir/src/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Game_Engine.dir/src/map.c.s"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/calvin/3D_Game/src/map.c -o CMakeFiles/Game_Engine.dir/src/map.c.s
+
+CMakeFiles/Game_Engine.dir/src/sprite.c.obj: CMakeFiles/Game_Engine.dir/flags.make
+CMakeFiles/Game_Engine.dir/src/sprite.c.obj: CMakeFiles/Game_Engine.dir/includes_C.rsp
+CMakeFiles/Game_Engine.dir/src/sprite.c.obj: ../src/sprite.c
+CMakeFiles/Game_Engine.dir/src/sprite.c.obj: CMakeFiles/Game_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Game_Engine.dir/src/sprite.c.obj"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game_Engine.dir/src/sprite.c.obj -MF CMakeFiles/Game_Engine.dir/src/sprite.c.obj.d -o CMakeFiles/Game_Engine.dir/src/sprite.c.obj -c /home/calvin/3D_Game/src/sprite.c
+
+CMakeFiles/Game_Engine.dir/src/sprite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Game_Engine.dir/src/sprite.c.i"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/calvin/3D_Game/src/sprite.c > CMakeFiles/Game_Engine.dir/src/sprite.c.i
+
+CMakeFiles/Game_Engine.dir/src/sprite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Game_Engine.dir/src/sprite.c.s"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/calvin/3D_Game/src/sprite.c -o CMakeFiles/Game_Engine.dir/src/sprite.c.s
+
+CMakeFiles/Game_Engine.dir/src/player.c.obj: CMakeFiles/Game_Engine.dir/flags.make
+CMakeFiles/Game_Engine.dir/src/player.c.obj: CMakeFiles/Game_Engine.dir/includes_C.rsp
+CMakeFiles/Game_Engine.dir/src/player.c.obj: ../src/player.c
+CMakeFiles/Game_Engine.dir/src/player.c.obj: CMakeFiles/Game_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Game_Engine.dir/src/player.c.obj"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game_Engine.dir/src/player.c.obj -MF CMakeFiles/Game_Engine.dir/src/player.c.obj.d -o CMakeFiles/Game_Engine.dir/src/player.c.obj -c /home/calvin/3D_Game/src/player.c
+
+CMakeFiles/Game_Engine.dir/src/player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Game_Engine.dir/src/player.c.i"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/calvin/3D_Game/src/player.c > CMakeFiles/Game_Engine.dir/src/player.c.i
+
+CMakeFiles/Game_Engine.dir/src/player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Game_Engine.dir/src/player.c.s"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/calvin/3D_Game/src/player.c -o CMakeFiles/Game_Engine.dir/src/player.c.s
+
 CMakeFiles/Game_Engine.dir/src/main.c.obj: CMakeFiles/Game_Engine.dir/flags.make
 CMakeFiles/Game_Engine.dir/src/main.c.obj: CMakeFiles/Game_Engine.dir/includes_C.rsp
 CMakeFiles/Game_Engine.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/Game_Engine.dir/src/main.c.obj: CMakeFiles/Game_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Game_Engine.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Game_Engine.dir/src/main.c.obj"
 	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game_Engine.dir/src/main.c.obj -MF CMakeFiles/Game_Engine.dir/src/main.c.obj.d -o CMakeFiles/Game_Engine.dir/src/main.c.obj -c /home/calvin/3D_Game/src/main.c
 
 CMakeFiles/Game_Engine.dir/src/main.c.i: cmake_force
@@ -88,7 +133,7 @@ CMakeFiles/Game_Engine.dir/src/glad.c.obj: CMakeFiles/Game_Engine.dir/flags.make
 CMakeFiles/Game_Engine.dir/src/glad.c.obj: CMakeFiles/Game_Engine.dir/includes_C.rsp
 CMakeFiles/Game_Engine.dir/src/glad.c.obj: ../src/glad.c
 CMakeFiles/Game_Engine.dir/src/glad.c.obj: CMakeFiles/Game_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Game_Engine.dir/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Game_Engine.dir/src/glad.c.obj"
 	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game_Engine.dir/src/glad.c.obj -MF CMakeFiles/Game_Engine.dir/src/glad.c.obj.d -o CMakeFiles/Game_Engine.dir/src/glad.c.obj -c /home/calvin/3D_Game/src/glad.c
 
 CMakeFiles/Game_Engine.dir/src/glad.c.i: cmake_force
@@ -101,12 +146,18 @@ CMakeFiles/Game_Engine.dir/src/glad.c.s: cmake_force
 
 # Object files for target Game_Engine
 Game_Engine_OBJECTS = \
+"CMakeFiles/Game_Engine.dir/src/map.c.obj" \
+"CMakeFiles/Game_Engine.dir/src/sprite.c.obj" \
+"CMakeFiles/Game_Engine.dir/src/player.c.obj" \
 "CMakeFiles/Game_Engine.dir/src/main.c.obj" \
 "CMakeFiles/Game_Engine.dir/src/glad.c.obj"
 
 # External object files for target Game_Engine
 Game_Engine_EXTERNAL_OBJECTS =
 
+Game_Engine.exe: CMakeFiles/Game_Engine.dir/src/map.c.obj
+Game_Engine.exe: CMakeFiles/Game_Engine.dir/src/sprite.c.obj
+Game_Engine.exe: CMakeFiles/Game_Engine.dir/src/player.c.obj
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/src/main.c.obj
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/src/glad.c.obj
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/build.make
@@ -114,7 +165,7 @@ Game_Engine.exe: ../glfw-windows/lib/libglfw3.a
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/linklibs.rsp
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/objects1.rsp
 Game_Engine.exe: CMakeFiles/Game_Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Game_Engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/calvin/3D_Game/windows_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Game_Engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game_Engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

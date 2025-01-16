@@ -5,6 +5,9 @@ cmake_policy(SET CMP0072 NEW)
 find_package(OpenGL REQUIRED)
 
 add_executable(Game_Engine
+    src/map.c
+    src/sprite.c
+    src/player.c
     src/main.c 
     src/glad.h 
     src/glad.c
@@ -15,3 +18,4 @@ target_link_libraries(Game_Engine
     glfw
     OpenGL::GL
 )
+

@@ -177,6 +177,78 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/map.obj: src/map.c.obj
+.PHONY : src/map.obj
+
+# target to build an object file
+src/map.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/map.c.obj
+.PHONY : src/map.c.obj
+
+src/map.i: src/map.c.i
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/map.c.i
+.PHONY : src/map.c.i
+
+src/map.s: src/map.c.s
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/map.c.s
+.PHONY : src/map.c.s
+
+src/player.obj: src/player.c.obj
+.PHONY : src/player.obj
+
+# target to build an object file
+src/player.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/player.c.obj
+.PHONY : src/player.c.obj
+
+src/player.i: src/player.c.i
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/player.c.i
+.PHONY : src/player.c.i
+
+src/player.s: src/player.c.s
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/player.c.s
+.PHONY : src/player.c.s
+
+src/sprite.obj: src/sprite.c.obj
+.PHONY : src/sprite.obj
+
+# target to build an object file
+src/sprite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/sprite.c.obj
+.PHONY : src/sprite.c.obj
+
+src/sprite.i: src/sprite.c.i
+.PHONY : src/sprite.i
+
+# target to preprocess a source file
+src/sprite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/sprite.c.i
+.PHONY : src/sprite.c.i
+
+src/sprite.s: src/sprite.c.s
+.PHONY : src/sprite.s
+
+# target to generate assembly for a file
+src/sprite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_Engine.dir/build.make CMakeFiles/Game_Engine.dir/src/sprite.c.s
+.PHONY : src/sprite.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +264,15 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/map.obj"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
+	@echo "... src/player.obj"
+	@echo "... src/player.i"
+	@echo "... src/player.s"
+	@echo "... src/sprite.obj"
+	@echo "... src/sprite.i"
+	@echo "... src/sprite.s"
 .PHONY : help
 
 

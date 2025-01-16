@@ -1,5 +1,16 @@
 #include "game_types.h"
 #include "/home/calvin/3D_Game/assets/fruity.c"
+#include "../assets/heart1.c"
+#include "../assets/heart2.c"
+#include "../assets/heart3.c"
+#include "../assets/heart4.c"
+#include "../assets/heart5.c"
+#include "../assets/heart6.c"
+#include "../assets/heart7.c"
+#include "../assets/heart8.c"
+#include "../assets/heart9.c"
+#include "../assets/heart10.c"
+#include "../assets/heart11.c"
 
 Sprite *newSprite(int state, int type, int map, int health, float x, float y, float z) {
     Sprite *spriteHead = (Sprite*)malloc(sizeof(Sprite));
@@ -156,7 +167,41 @@ void drawSprite(Sprite * sp, Player p, Map m, int * flashTimer, int depth[120]) 
 
                 switch (s.map) {
                     case 1:
-                        t = T_FRUITY;
+                        t = T_HEART_1;
+                        break;
+                    
+                    case 2: 
+                        t = T_HEART_2;
+                        break;
+                    case 3:
+                        t = T_HEART_3;
+                        break;
+                    case 4:
+                        t = T_HEART_4;
+                        break;
+                    case 5:
+                        t = T_HEART_5;
+                        break;
+                    case 6: 
+                        t = T_HEART_6;
+                        break;
+                    case 7: 
+                        t = T_HEART_7;
+                        break;
+                    case 8: 
+                        t = T_HEART_8;
+                        break;
+                    case 9: 
+                        t = T_HEART_9;
+                        break;
+                    case 10: 
+                        t = T_HEART_10;
+                        break;
+                    case 11: 
+                        t = T_HEART_11;
+                        break;
+                    case 12: 
+                        t = T_HEART_1;
                         break;
                     default:
                         t = T_FRUITY;
@@ -178,7 +223,7 @@ void drawSprite(Sprite * sp, Player p, Map m, int * flashTimer, int depth[120]) 
                 }
                 
 
-                if (!(r == 255 && g == 0 && b == 255)) { // this magenta means don't draw
+                if (!(r == 254) && !(g == 254) && !(b == 254)) { // this means don't draw
 
                 glPointSize(STRETCH);
                 glColor3ub(r,g,b);
@@ -203,11 +248,12 @@ void drawSprite(Sprite * sp, Player p, Map m, int * flashTimer, int depth[120]) 
 }
 
 void moveSprite(Sprite * s, float dt, Player p, Map m) {
-
+    
+    return;
     /*
     
     scan up, scan down, scan left, scan right
-    go in the two longest directions 
+    go in the two longest direction
 
     int scan;
     int x_sub_d = 0, x_add_d = 0, y_sub_d = 0, y_add_d = 0;

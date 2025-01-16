@@ -9,6 +9,8 @@
 #include "../assets/MinecraftBricks.c"
 #include "../assets/grass_2.c"
 #include "../assets/wood_planks.c"
+
+
 // put all these textures into one C file
 
 //#define DEBUG
@@ -502,10 +504,13 @@ void drawRays3D(Player p, Map map) {
             int green = tile[pixel+1];
             int blue = tile[pixel+2];
             glPointSize(STRETCH);
+            
+            if (!(red > 250) && !(green > 250) && !(blue > 250)) {
             glColor3ub(red, green, blue);
             glBegin(GL_POINTS);
             glVertex2i(r*STRETCH+WINDOW_OFFSET, y+lineO);
             glEnd();
+            }
         
             ty+=ty_step;
         }
@@ -676,7 +681,7 @@ void handleKeys(GLFWwindow *window, int key, int scancode, int action, int mods)
     }
 }
 
-void levelInit(Sprite ** s) {
+void levelInit(Sprite ** s) { 
     *s = newSprite(1,1,1,3,96,96,30);
     //printf("test\n");
 }
@@ -754,16 +759,25 @@ int main()
     //Sprite * hT = headSprite; // these will be copies of the tail for use in functions that create enemies
     //Map * hT = headMap; 
 
+
+    /*
+    the main test:
+    create a 
+    */
+
+    double animation = 0;
+
     // GAME LOOP
 
     while (!glfwWindowShouldClose(window))
     { // main loop
         currentTime = glfwGetTime();
         deltaTime = (float)(currentTime - lastTime);
-
+        animation += deltaTime;
+        if (animation >= 0.1) animation = 0;
         //printf("dt: %f\n", deltaTime);
 
-
+        //printf("%lf\n", deltaTime);
         switch (gamestate) {
 
             case TITLE_SCREEN:
@@ -799,6 +813,10 @@ int main()
                 drawRays3D(player, *hM);
 
                 while (hS != NULL) {
+                    if (animation == 0) {
+                        if (hS->map == 12) hS->map = 1;
+                        else hS->map += 1;
+                    }
                     drawSprite(hS, player, *hM, &flashTimer, depth);   
                     hS = hS->next;
                 }

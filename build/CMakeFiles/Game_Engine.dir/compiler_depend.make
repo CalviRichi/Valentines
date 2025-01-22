@@ -137,7 +137,7 @@ CMakeFiles/Game_Engine.dir/src/main.c.o: ../src/main.c \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  ../glfw-windows/include/GLFW/glfw3.h \
+  /usr/include/GLFW/glfw3.h \
   ../assets/gun2.c \
   ../assets/grass.c \
   ../assets/bricks.c \
@@ -218,7 +218,7 @@ CMakeFiles/Game_Engine.dir/src/map.c.o: ../src/map.c \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  ../glfw-windows/include/GLFW/glfw3.h
+  /usr/include/GLFW/glfw3.h
 
 CMakeFiles/Game_Engine.dir/src/player.c.o: ../src/player.c \
   /usr/include/stdc-predef.h \
@@ -289,7 +289,7 @@ CMakeFiles/Game_Engine.dir/src/player.c.o: ../src/player.c \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  ../glfw-windows/include/GLFW/glfw3.h
+  /usr/include/GLFW/glfw3.h
 
 CMakeFiles/Game_Engine.dir/src/sprite.c.o: ../src/sprite.c \
   /usr/include/stdc-predef.h \
@@ -360,7 +360,7 @@ CMakeFiles/Game_Engine.dir/src/sprite.c.o: ../src/sprite.c \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  ../glfw-windows/include/GLFW/glfw3.h \
+  /usr/include/GLFW/glfw3.h \
   ../assets/fruity.c \
   ../assets/heart1.c \
   ../assets/heart2.c \
@@ -469,6 +469,8 @@ CMakeFiles/Game_Engine.dir/src/sprite.c.o: ../src/sprite.c \
 
 ../assets/MinecraftBricks.c:
 
+/usr/include/GLFW/glfw3.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -510,8 +512,6 @@ CMakeFiles/Game_Engine.dir/src/sprite.c.o: ../src/sprite.c \
 ../assets/leigha.c:
 
 /usr/include/features-time64.h:
-
-../glfw-windows/include/GLFW/glfw3.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 

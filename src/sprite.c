@@ -132,6 +132,7 @@ void drawSprite(Sprite * sp, Player p, Map m, int * flashTimer, int depth[120]) 
 
     float distanceToSprite = sqrt(spriteX * spriteX + spriteY * spriteY);
 
+    // investigate this part so that sprites display more accurately
     float screenX = (transformedX * scalingFactorX / transformedY) + (120/ 2); // number of rays
     
     float screenY = ((transformedZ * (scalingFactorY/transformedY)) + (80/2))-(distanceToSprite/64); // -distanceToSprite/64
@@ -247,54 +248,10 @@ void drawSprite(Sprite * sp, Player p, Map m, int * flashTimer, int depth[120]) 
     
 }
 
+// different functions for different sprites
 void moveSprite(Sprite * s, float dt, Player p, Map m) {
     
-    return;
-    /*
     
-    scan up, scan down, scan left, scan right
-    go in the two longest direction
-
-    int scan;
-    int x_sub_d = 0, x_add_d = 0, y_sub_d = 0, y_add_d = 0;
-    int dirX, dirY;
-
-    scan = s.x;
-    while (map[spy*mapX+scan] == 0) {
-        scan--;
-        x_sub_d++;
-    }
-    scan = s.x;
-    while (map[spy*mapX+scan] == 0) {
-        scan++;
-        x_add_d++;
-    }
-    scan = s.y;
-    while (map[spy*mapX+scan] == 0) {
-        scan--;
-        y_sub_d++;
-    }
-    scan = s.y;
-    while (map[spy*mapX+scan] == 0) {
-        scan++;
-        y_add_d++;
-    }
-
-    if (x_sub_d > x_add_d) {
-        dirX = 0;
-    }
-    else {
-        dirX = 1;
-    }
-    if (y_sub_d > y_add_d) {
-        dirY = 0;
-    }
-    else {
-        dirY = 1;
-    }
-    
-    */
-    //static int noUp = FALSE, noDown = FALSE, noLeft = FALSE, noRight = FALSE;
     if (s->state == 0 || m.map!=m.m[0]) {
         return;
     }
@@ -340,7 +297,15 @@ void moveSprite(Sprite * s, float dt, Player p, Map m) {
     }
 
     if (s->type == 2) {
-
+        /*
+        Code for detecting when the player has intersected with the sprite
+        Could include a sound effect
+        Need to add +1 to the score 
+        */
+        float x1 = s->x - p.plX; float y1 = s->y - p.plY;
+        float d = x1*x1 + y1*y1;
+        if (d < 100) s->state = 0;
+        
         return;
     }
 }

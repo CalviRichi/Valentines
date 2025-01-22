@@ -139,7 +139,7 @@ CMakeFiles/Game_Engine.dir/src/main.c.o
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h
+ /usr/include/GLFW/glfw3.h
  /home/calvin/3D_Game/assets/gun2.c
  /home/calvin/3D_Game/assets/grass.c
  /home/calvin/3D_Game/assets/bricks.c
@@ -221,7 +221,7 @@ CMakeFiles/Game_Engine.dir/src/map.c.o
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h
+ /usr/include/GLFW/glfw3.h
 
 CMakeFiles/Game_Engine.dir/src/player.c.o
  /home/calvin/3D_Game/src/player.c
@@ -293,7 +293,7 @@ CMakeFiles/Game_Engine.dir/src/player.c.o
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h
+ /usr/include/GLFW/glfw3.h
 
 CMakeFiles/Game_Engine.dir/src/sprite.c.o
  /home/calvin/3D_Game/src/sprite.c
@@ -365,7 +365,7 @@ CMakeFiles/Game_Engine.dir/src/sprite.c.o
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/calvin/3D_Game/glfw-windows/include/GLFW/glfw3.h
+ /usr/include/GLFW/glfw3.h
  /home/calvin/3D_Game/assets/fruity.c
  /home/calvin/3D_Game/assets/heart1.c
  /home/calvin/3D_Game/assets/heart2.c

@@ -682,7 +682,7 @@ void handleKeys(GLFWwindow *window, int key, int scancode, int action, int mods)
 }
 
 void levelInit(Sprite ** s) { 
-    *s = newSprite(1,1,1,3,96,96,30);
+    *s = newSprite(1,2,1,3,96,96,30);
     //printf("test\n");
 }
 /*
@@ -731,7 +731,10 @@ int main()
     // END INITIALIZATION ------------------------------------------------------
 
     Sprite * headSprite;
-    levelInit(&headSprite);
+    levelInit(&headSprite); // *s = newSprite(1,2,1,3,96,96,30);
+    headSprite->next = newSprite(1, 2, 1, 3, 380, 418, 20);
+
+
     // While it's annoying to have such a long function header, this allows for dynamic creation of sprites
     Map * headMap = newMap(map_walls_small, map_walls_small_2, map_walls_small_3, map_walls_small_4);
 
@@ -791,8 +794,9 @@ int main()
                 //taking input
                 glfwPollEvents();
                 movePlayer(&player, deltaTime, headSprite, &buttonBuffer, hM, bTravel, &flashTimer);
+                printf("x: %f, y: %f\n", player.plX, player.plY);
                 hS = headSprite;
-                while (hS != NULL) {
+                while (hS) {
                     
                     moveSprite(hS, deltaTime, player, *hM);
                     // it should be something like shootgun takes in the sprite and 
@@ -806,7 +810,6 @@ int main()
                 hM = headMap;
                 bulletTravel = FALSE;
                 
-
                 //rendering 
                 glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);      
                 
